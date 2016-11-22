@@ -1,30 +1,58 @@
 body {
-	font-family: 'Open sans', arial;
+	font-family: 'Open sans', Arial, sans-serif;
 }
 
 .wrapper {
-	width: 1105px;
-	height: 1852px;
+	width: 80%;
+	height: 100%;
 	background-color: #ffffff;
-	margin-left: 128px;
+	margin-left: 9%;
 	box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.75);
 }
 
-.main_menu {
-	width: 1105px;
-	height: 40px
-	background-color: #000000;
-}
+
+/*HEADER*/
+header .container {box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.67);}
+/*top menu*/
+header .top_bar {	height: 40px; background-color: #333;}
+header .top_menu  li{float:left; line-height: 40px;}
+header .top_menu  li:first-child {margin-left: 98px;}
+header .top_menu  li a{color:#fff; text-decoration: none; font-size: 14px; margin:0 15px; }
+header .top_menu  li:hover{background-color:#616161; }
+header .private_office {float:right; background-color:#c67707; line-height: 40px; margin-right: 40px;}
+header .private_office a{color:#fff; text-decoration:none; padding: 0 20px; font-size: 14px; font-weight:bold;}
+header .private_office img{margin-right:15px}
+
+/*main menu*/
+header .main_menu_bar {height: 87px;}
+header .logo {float:left; margin: 15px 0 0 20px;}
+header .main_menu{float:left; line-height: 87px; margin-left:30px;}
+header .main_menu  li a{color:#000; text-decoration: none; font-size: 16px; margin:0 15px; }
+header .main_menu  li a:hover{text-decoration:underline; }
+header ul li { display:inline;}
 
 
 
-.clearfix:after {
-	content: '';
-	clear: both;
-	display: block;
-}
 
+/* FOOTER*/
 
-header ul li { 
-	display:inline; 
-}
+footer {width: 100%; float: left; height:168px; background: #444;}
+.container_footer {width: 1105px;height:100%; margin: 0 auto; }
+
+/*Left column*/
+footer .column_left{ float: left; width: 33%;}
+footer .copyright {float:left; margin:45px 0 0 50px}
+footer .copyright p{ margin-top:30px; color:#eee; font-size: 12px;}
+
+/*Center column*/
+footer .column_center{ display: inline-block; width: 33%; text-align: left}
+ul.footer_menu {margin-top:30px ; padding: 0;}
+ul.footer_menu  li {margin: 15px 0px;}
+ul.footer_menu  li a {font-size: 16px; color: #dcdcdc; text-decoration: none;}
+ul.footer_menu  li a:hover {color: #fff; text-decoration: none;}
+
+/*Right column*/
+footer .column_right{ float: right; width: 33%; text-align: center}
+footer .mail {margin-top:40px;}
+footer .mail a{color:#6699FF}
+footer .telephone_number{margin-top:16px; color:#eee; font-size: 19px; line-height:23px}
