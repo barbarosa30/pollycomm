@@ -7,8 +7,12 @@ body {
 	margin: 0 auto;
 }
 
-.top_bar {	height: 40px; background-color: #000000;}
-
+header .top_bar {	height: 40px; background-color: #333;}
+header .top_menu  li{float:left; line-height: 40px}
+header .top_menu  li a{color:#fff; text-decoration: none; font-size: 14px; margin:0 15px; }
+header .top_menu  li:hover{background-color:#616161; }
+header .private_office {float:right; background-color:#c67707; line-height: 40px; margin-right: 40px}
+header .private_office a{color:#fff; text-decoration:none; padding: 0 20px; font-size: 14px; font-weight:bold}
 
 
 .clearfix:after {
