@@ -1,20 +1,13 @@
 body {
-	font-family: 'Open sans', arial;
+	font-family: "Open Sans", Arial, sans-serif;;
 }
 
-.wrapper {
+.container {
 	width: 1105px;
-	height: 1852px;
-	background-color: #ffffff;
-	margin-left: 128px;
-	box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.75);
+	margin: 0 auto;
 }
 
-.main_menu {
-	width: 1105px;
-	height: 40px
-	background-color: #000000;
-}
+.top_bar {	height: 40px; background-color: #000000;}
 
 
 
@@ -28,3 +21,32 @@ body {
 header ul li { 
 	display:inline; 
 }
+
+/* FOOTER*/
+
+footer {width: 100%; float: left; height:168px; background: #444;}
+.container_footer {width: 1105px;height:100%; margin: 0 auto; }
+
+/*Left column*/
+footer .column_left{ float: left; width: 33%;}
+footer .copyright {float:left; margin:45px 0 0 50px}
+footer .copyright p{ margin-top:30px; color:#eee; font-size: 12px;}
+
+/*Center column*/
+footer .column_center{ display: inline-block; width: 33%; text-align: left}
+ul.footer_menu {margin-top:30px ; padding: 0;}
+ul.footer_menu  li {margin: 15px 0px;}
+ul.footer_menu  li a {font-size: 16px; color: #dcdcdc; text-decoration: none;}
+ul.footer_menu  li a:hover {color: #fff; text-decoration: none;}
+
+/*Right column*/
+footer .column_right{ float: right; width: 33%; text-align: center}
+footer .mail {margin-top:40px;}
+footer .mail a{color:#6699FF}
+footer .telephone_number{margin-top:16px; color:#eee; font-size: 19px; line-height:23px}
+
+
+
+
+
+
