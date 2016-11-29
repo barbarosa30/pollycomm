@@ -33,19 +33,43 @@ header ul li { display:inline;}
 
 /*baner*/
 
-/*Content*/
-#news h1{margin:10px}
-content .column_left{ float: left; width: 33%; text-align:left; }
-content .column_center{ display: inline-block; width: 33%; text-align:left; }
-content .column_right{ float: right; width: 33%; text-align:left; }
+/*CONTENT*/
+content h1{margin:20px}
+
+.tarrifs {margin-top:50px}
+.tarrifs .column_left{ float: left; width: 33%; text-align:center; }
+.tarrifs .column_center{ display: inline-block; width: 33%; text-align:center; }
+.tarrifs .column_right{ float: right; width: 33%; text-align:center; }
+content .tarrif_block {width:245px; height:375px; border-radius:15px; border:2px solid #999; margin: 0 auto; }
+.tarrifs h2  {margin: 20px 0; font-family: "HelveticaBold"}
+.tarrifs hr {width:200px; border: none; background-color:#cccaca; color:#cccaca; height: 1px; margin-bottom:15px}
+.tarrifs p{font-size:14px; line-height:1.3em;}
+.tarrifs h3  {font-size:32px; color:#777}
+.button_to_plug {height:30px; width:150px; border:none; border-radius:7px;background-color:#0a93cb; margin:15px auto}
+.button_to_plug a{font-family: "HelveticaBold"; font-size:15px; line-height:30px; color:#fff; text-decoration:none; margin:0 auto; letter-spacing:1px}
+.hit {position:absolute;  pointer-events: none;}
+.all_tarrifs {margin:10px 0 0 45px; }
+.all_tarrifs a {text-decoration:none}
+.all_tarrifs a:hover {text-decoration:underline}
+
+/*News*/
+#news {margin: 50px 0 }
+h1{margin:10px}
+#news .column_left{ float: left; width: 33%; text-align:left; }
+#news .column_center{ display: inline-block; width: 33%; text-align:left; }
+#news .column_right{ float: right; width: 33%; text-align:left; }
 .news_block {width:295px; height:125px; background-color:#dfdfdf; margin: 0 auto; position:relative;}
 .news_time{font-size:13px; color:#555; font-weight:bold; padding:7px }
 .title_description_news{font-size:14px;  font-weight:bold; margin:15px 0 0 15px; line-height:1.3em;}
 .detailed_news{position:absolute;font-size:13px; font-weight:bold; margin-left:15px; bottom:15px;  }
+.all_news {margin:10px 0 0 25px; font-size:14px;}
+.all_news a {text-decoration:none}
+.all_news a:hover {text-decoration:underline}
 
-
+/*Description*/
+.description {margin-top:50px}
 .description p {text-indent: 2em; text-align: justify; line-height:1.3em; margin:10px}
-.description h1 {margin:10px}
+
 
 
 /* FOOTER*/
