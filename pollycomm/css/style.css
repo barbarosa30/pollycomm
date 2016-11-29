@@ -16,9 +16,10 @@ header .headershadow {box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.67);}
 /*top menu*/
 header .top_bar {height:40px;	 background-color: #333;}
 header .top_menu  li{float:left; line-height: 40px;}
-header .top_menu  li:first-child {margin-left: 50px;}
-header .top_menu  li a{color:#fff; text-decoration: none; font-size: 14px; margin:0 15px; }
+header .top_menu  li:first-child {margin-left: 20px;}
+header .top_menu  li a{color:#eee; text-decoration: none; font-size: 14px; margin:0 15px; }
 header .top_menu  li:hover{background-color:#616161; }
+header .top_menu  li a:hover{color:white;}
 header .private_office {float:right; background-color:#c67707; line-height: 40px; margin-right: 40px;}
 header .private_office a{color:#fff; text-decoration:none; padding: 0 20px; font-size: 14px; font-weight:bold;}
 header .private_office img{margin-right:15px}
@@ -26,16 +27,31 @@ header .private_office img{margin-right:15px}
 /*main menu*/
 header .main_menu_bar {height: 87px;}
 header .logo {float:left; margin: 15px 0 0 20px;}
-header .main_menu{float:left; line-height: 87px; margin-left:30px; }
+header .main_menu{float:left; margin-top: 40px; }
 header .main_menu  li a{color:#000; text-decoration: none; font-size: 16px; margin:0 15px; }
 header .main_menu  li a:hover{text-decoration:underline; }
 header ul li { display:inline;}
 
-/*baner*/
+header .button_to_plug {float:left; margin-left:40px; height:28px; width:140px; border:none; border-radius:7px;background-color:#0a93cb; margin-top:33px; text-align:center}
+header .button_to_plug a{font-family: "HelveticaBold"; font-size:13px; line-height:28px; color:#fff; text-decoration:none; margin:0 auto; letter-spacing:1px}
+
+header .telephone_number{float:right; margin-top:21px; font-size:20px; line-height:1.3em;}
 
 /*CONTENT*/
 content h1{margin:20px}
 
+/*Banner*/
+#banner {height:281px; background-color:#f4f4f4; margin-top:4px }
+#banner .column_left{ float: left; width: 50%; text-align:left; }
+#banner .column_right{ float: right; width: 50%; text-align:left; }
+#banner h2{margin-left:100px; margin-top:45px; font-family: "HelveticaUltraLight"; font-size:30px; line-height:1.3em;letter-spacing:2px; text-shadow: 1px 1px 6px #aaa;}
+#banner p {margin-left:100px;margin-top:15px; font-size:15px; color:#555; line-height:1.3em}
+#banner .button_to_plug {height:30px; width:150px; border:none; border-radius:7px;background-color:#0a93cb; margin-top:30px; text-align:center}
+#banner .button_to_plug a{font-family: "HelveticaBold"; font-size:15px; line-height:30px; color:#fff; text-decoration:none; margin:0 auto; letter-spacing:1px}
+#banner .computer {margin-top:10px; margin-left:90px; pointer-events: none;}
+
+
+/*Tarrifs*/
 .tarrifs {margin-top:50px}
 .tarrifs .column_left{ float: left; width: 33%; text-align:center; }
 .tarrifs .column_center{ display: inline-block; width: 33%; text-align:center; }
@@ -45,12 +61,18 @@ content .tarrif_block {width:245px; height:375px; border-radius:15px; border:2px
 .tarrifs hr {width:200px; border: none; background-color:#cccaca; color:#cccaca; height: 1px; margin-bottom:15px}
 .tarrifs p{font-size:14px; line-height:1.3em;}
 .tarrifs h3  {font-size:32px; color:#777}
-.button_to_plug {height:30px; width:150px; border:none; border-radius:7px;background-color:#0a93cb; margin:15px auto}
-.button_to_plug a{font-family: "HelveticaBold"; font-size:15px; line-height:30px; color:#fff; text-decoration:none; margin:0 auto; letter-spacing:1px}
-.hit {position:absolute;  pointer-events: none;}
+.tarrifs .button_to_plug {height:30px; width:150px; border:none; border-radius:7px;background-color:#0a93cb; margin:15px auto; text-align:center}
+.tarrifs .button_to_plug a{font-family: "HelveticaBold"; font-size:15px; line-height:30px; color:#fff; text-decoration:none; margin:0 auto; letter-spacing:1px}
+.hit {position:absolute;  pointer-events: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;}
 .all_tarrifs {margin:10px 0 0 45px; }
 .all_tarrifs a {text-decoration:none}
 .all_tarrifs a:hover {text-decoration:underline}
+
+
+/*Description*/
+.description {margin-top:50px}
+.description p {text-indent: 2em; text-align: justify; line-height:1.6em; margin:10px}
+
 
 /*News*/
 #news {margin: 50px 0 }
@@ -66,9 +88,6 @@ h1{margin:10px}
 .all_news a {text-decoration:none}
 .all_news a:hover {text-decoration:underline}
 
-/*Description*/
-.description {margin-top:50px}
-.description p {text-indent: 2em; text-align: justify; line-height:1.3em; margin:10px}
 
 
 
